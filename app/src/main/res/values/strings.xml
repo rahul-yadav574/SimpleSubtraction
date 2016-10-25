@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Subtract</string>
+
+    <array name="questions_array">
+        <item>Subtract 4 from 9 ??</item>
+        <item>Subtract 3 from 7 ??</item>
+        <item>Subtract 2 from 9 ??</item>
+        <item>Subtract 1 from 5 ??</item>
+        <item>Subtract 8 from 9 ??</item>
+        <item>Subtract 1 from 2 ??</item>
+        <item>Subtract 6 from 9 ??</item>
+        <item>Subtract 4 from 9 ??</item>
+        <item>Subtract 2 from 4 ??</item>
+        <item>Subtract 1 from 2 ??</item>
+        <item>Subtract 1 from 8 ??</item>
+        <item>Subtract 5 from 8 ??</item>
+        <item>Subtract 1 from 4 ??</item>
+        <item>Subtract 7 from 9 ??</item>
+    </array>
+</resources>

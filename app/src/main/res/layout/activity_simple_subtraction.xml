@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_simple_subtraction"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hemantbansal.subtract.SimpleSubtraction">
+
+
+    <TextView
+        android:gravity="center"
+        android:visibility="gone"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="19sp"
+        android:id="@+id/answerTxt"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/startPractise"
+        android:layout_below="@+id/answerTxt"
+        android:text="Start Practise"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_centerInParent="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp">
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_weight="1"
+        android:layout_height="30dp"
+        android:id="@+id/apple1"
+        android:src="@drawable/apple"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_weight="1"
+        android:src="@drawable/apple"
+        android:layout_height="30dp"
+        android:id="@+id/apple2"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_weight="1"
+        android:src="@drawable/apple"
+        android:layout_height="30dp"
+        android:id="@+id/apple3"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_weight="1"
+        android:src="@drawable/apple"
+        android:id="@+id/apple4"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_weight="1"
+        android:src="@drawable/apple"
+        android:id="@+id/apple5"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:src="@drawable/apple"
+        android:layout_weight="1"
+        android:id="@+id/apple6"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:src="@drawable/apple"
+        android:layout_weight="1"
+        android:id="@+id/apple7"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_weight="1"
+        android:src="@drawable/apple"
+        android:id="@+id/apple8"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_weight="1"
+        android:src="@drawable/apple"
+        android:id="@+id/apple9"
+        android:layout_height="30dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingBottom="30dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <ImageView
+            android:layout_width="30dp"
+            android:src="@drawable/apple"
+            android:layout_weight="1"
+            android:layout_height="30dp"
+            android:id="@+id/apples1"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/apple"
+            android:id="@+id/apples2"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/apple"
+            android:id="@+id/apples3"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:id="@+id/apples4"
+            android:layout_weight="1"
+            android:src="@drawable/apple"
+            android:layout_height="30dp" />
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/apple"
+            android:id="@+id/apples5"
+            android:layout_height="30dp" />
+        <ImageView
+            android:src="@drawable/apple"
+            android:layout_weight="1"
+            android:layout_width="30dp"
+            android:id="@+id/apples6"
+            android:layout_height="30dp" />
+        <ImageView
+            android:src="@drawable/apple"
+            android:layout_width="30dp"
+            android:layout_weight="1"
+            android:id="@+id/apples7"
+            android:layout_height="30dp" />
+        <ImageView
+            android:layout_width="30dp"
+            android:src="@drawable/apple"
+            android:layout_weight="1"
+            android:id="@+id/apples8"
+            android:layout_height="30dp" />
+        <ImageView
+            android:layout_width="30dp"
+            android:src="@drawable/apple"
+            android:layout_weight="1"
+            android:id="@+id/apples9"
+            android:layout_height="30dp" />
+    </LinearLayout>
+</RelativeLayout>
